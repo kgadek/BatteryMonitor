@@ -1,0 +1,14 @@
+Name:                batterymonitor
+Version:             0.1
+Author:              Konrad Gadek
+Maintainer:          kgadek@gmail.com
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+
+Library
+  exposed-modules: BatteryMonitor
+  build-depends:
+    base,
+    mtl >= 2,
+    process >= 1,
+    libnotify
